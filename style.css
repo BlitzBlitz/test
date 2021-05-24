@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 60;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    background: url('images/home/showcase.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+
+.hero {
+    z-index: 1;
+}
+
+.nav {
+    z-index: 2;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+
+.nav i{
+    margin: 0 10px;
+}
+
+.nav h1{
+    font-size: 2rem;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+}
+
+#about .column3{
+    padding: 20px;
+}
+
+
+.mainArea{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    height: 100%;
+    width: 100%;
+}
+
+.mainArea h1{
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+.mainArea h2{
+    padding-left: 130px;
+    font-size: 2rem;
+    margin-bottom: 35px;
+}
+
+#casesTitle *{
+    margin: 20px 0px;
+}
+
+#contact h1, input, button{
+    margin: 20px;
+    padding: 10px;
+}
+#contact h1{
+    font-size: 2rem;
+}
+#contact input:focus{
+    outline-color:  #4bf07d;
+}
+#contact button{
+    background-color:  #35b45b;
+    border-style: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+}
+#contact button:focus{
+    outline-color:  #76C6E4;
+}

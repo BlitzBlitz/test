@@ -1,0 +1,176 @@
+.primary-color{
+    color: #76C6E4;
+}
+.bg-primary{
+    background-color: #76C6E4;
+}
+
+.bg-secondary{
+    background-color: #4bf07d;
+}
+
+.bg-light{
+    background-color: #f4f4f4;
+}
+
+/* Buttons*/
+.btn-nav{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: white;
+}
+.btn-nav:hover{
+    border-bottom: 2px solid  #4c90b4;
+    color: #76C6E4;
+}
+
+.btn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    color: white;
+    border-radius: 0px 25px;
+}
+.btn:hover{
+    background-color: #44b8e2;
+}
+
+.btn-light{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 0px 25px;
+    align-self: flex-start;
+}
+
+/*Containers*/
+
+.casesContainer{
+    margin: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.column4{
+    width: 25%;
+    padding: 5px;
+}
+
+.containerOfColumn{
+    display: flex;
+}
+
+.column3{
+    width: 33.333%;
+    text-align: center;
+}
+
+.column3 *{
+    margin-bottom: 20px;
+}
+.padded{
+    padding: 50px;
+}
+
+.column2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.column2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.column{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*Icons*/
+
+.icon{
+    border-radius: 50%;
+    padding: 15px;
+}
+.icon:hover{
+    background-color: #76c7e483;
+}
+
+/*Description*/
+
+.description{
+    padding: 30px;
+    color: white;   
+}
+.description *{
+    margin-bottom: 15px;
+}
+.description h1{
+    font-size: 3rem;
+}
+.description h2{
+    font-weight: bold;
+}
+.description p{
+    line-height: 1.6rem;
+}
+
+/*Images*/
+
+.image{
+    border-radius: 0px 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
+
+/*Shadowed-Long*/
+.shadowed-long{
+    text-shadow: 0px 0px 0 #009142, 1px 1px 0 #009142, 2px 2px 0 #009142, 3px 3px 0 #009142, 4px 4px 0 #009142, 
+5px 5px 0 #009142, 6px 6px 0 #009142, 7px 7px 0 #009142, 8px 8px 0 #009142, 9px 9px 0 #009142, 10px 10px 0 #009142,
+ 11px 11px 0 #009142, 12px 12px 0 #009142, 13px 13px 0 #009142, 14px 14px 0 #009142, 15px 15px 0 #009142,
+ 16px 16px 0 #009142, 17px 17px 0 #009142, 18px 18px 0 #009142, 19px 19px 0 #009142, 20px 20px 0 #009142, 
+21px 21px 0 #009142, 22px 22px 0 #009142, 23px 23px 0 #009142, 24px 24px 0 #009142, 25px 25px 0 #009142, 
+26px 26px 0 #009142, 27px 27px 0 #009142, 28px 28px 0 #009142, 29px 29px 0 #009142, 30px 30px 0 #009142, 31px 31px 0 #009142,
+ 32px 32px 0 #009142, 33px 33px 0 #009142, 34px 34px 0 #009142, 35px 35px 0 #009142, 36px 36px 0 #009142, 37px 37px 0 #009142,
+ 38px 38px 0 #009142, 39px 39px 0 #009142, 40px 40px 0 #009142, 41px 41px 0 #009142, 42px 42px 0 #009142, 43px 43px 0 #009142,
+ 44px 44px 0 #009142, 45px 45px 0 #009142, 46px 46px 0 #009142, 47px 47px 0 #009142, 48px 48px 0 #009142, 49px 49px 0 #009142,
+ 50px 50px 0 #009142, 51px 51px 0 #009142, 52px 52px 0 #009142, 53px 53px 0 #009142, 54px 54px 0 #009142, 55px 55px 0 #009142, 
+56px 56px 0 #009142, 57px 57px 0 #009142, 58px 58px 0 #009142, 59px 59px 0 #009142, 60px 60px 0 #009142, 61px 61px 0 #009142,
+ 62px 62px 0 #009142, 63px 63px 0 #009142, 64px 64px 0 #009142, 65px 65px 0 #009142, 66px 66px 0 #009142, 67px 67px 0 #009142,
+ 68px 68px 0 #009142, 69px 69px 0 #009142, 70px 70px 0 #009142, 71px 71px 0 #009142, 72px 72px 0 #009142, 73px 73px 0 #009142, 
+74px 74px 0 #009142, 75px 75px 0 #009142, 76px 76px 0 #009142, 77px 77px 0 #009142, 78px 78px 0 #009142, 79px 79px 0 #009142, 
+80px 80px 0 #009142, 81px 81px 0 #009142, 82px 82px 0 #009142, 83px 83px 0 #009142, 84px 84px 0 #009142, 85px 85px 0 #009142, 
+86px 86px 0 #009142, 87px 87px 0 #009142, 88px 88px 0 #009142, 89px 89px 0 #009142, 90px 90px 0 #009142, 91px 91px 0 #009142, 
+92px 92px 0 #009142, 93px 93px 0 #009142, 94px 94px 0 #009142, 95px 95px 0 #009142, 96px 96px 0 #009142, 97px 97px 0 #009142, 
+98px 98px 0 #009142, 99px 99px 0 #009142, 100px 100px 0 #009142, 101px 101px 0 #009142, 102px 102px 0 #009142, 103px 103px 0 #009142;
+}
+
+/*Footer*/
+footer{
+    background-color: #333333;
+    color: white;
+    padding: 20px;
+}
+footer .icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+footer i:hover{
+    color: #4bf07d;
+}
+footer h1{
+    text-align: center; 
+}
